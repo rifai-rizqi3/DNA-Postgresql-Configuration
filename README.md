@@ -1,1 +1,17 @@
 # Postgres
+Masuk ke Postgre
+```
+$ su - postgres
+```
+Masuk Ke databse yang ingi di restore
+```
+$ psql (nama database)
+```
+Tambahkan perintah psql -d (Nama Database) -p (Port Postgres) -U (User Database) -f (Direktori File Backup)
+Contoh
+```
+$ psql -d baru -p 5432 -U postgres -f /home/dna/Desktop/test/backup_database_warna_salestrack_11-12-2022.tar
+```
+Tunggu Hingga Proses Restorasi Selesai
+
+Refrensi : https://www.youtube.com/watch?v=eZR6FKLIde0
