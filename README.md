@@ -3,10 +3,6 @@ Masuk ke Postgre
 ```
 $ su - postgres
 ```
-Masuk Ke databse yang ingi di restore
-```
-$ psql (nama database)
-```
 Tambahkan perintah psql -d (Nama Database) -p (Port Postgres) -U (User Database) -f (Direktori File Backup)
 Contoh
 ```
