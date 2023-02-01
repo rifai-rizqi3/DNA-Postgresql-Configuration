@@ -80,6 +80,24 @@ Melihat isi Tabel
 ```
 # \dt
 ```
+# Cara Backup Database PostgreSQL di Ubuntu Melalui Command Line
+1. Sekali Proses
+```
+$ su - postgres
+```
+```
+$ pg_dump namadatabase > namadatabase.bak
+```
+Terdapat beberapa ektensi database yang bisa digunakan, yaitu:
+
+*.bak: compressed binary format
+*.sql: plaintext dump
+*.tar: tarball
+
+Resotore database menggunakan psql
+```
+psql namadatabase < namadatabase.bak
+```
 
 # Restore Postgres
 Masuk ke Postgre
