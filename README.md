@@ -9,6 +9,10 @@ $ createdb kampus
 ```
 $ psql ..
 ```
+Melihat isi Tabel
+```
+# \dt
+```
 
 # Restore Postgres
 Masuk ke Postgre
