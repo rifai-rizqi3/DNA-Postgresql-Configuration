@@ -1,4 +1,16 @@
-# Postgres
+# Membuat Database baru
+Masuk ke akun postgres di server dengan menggunakan:
+```
+$ su - postgres
+```
+```
+$ createdb kampus
+```
+```
+$ psql ..
+```
+
+# Restore Postgres
 Masuk ke Postgre
 ```
 $ su - postgres
